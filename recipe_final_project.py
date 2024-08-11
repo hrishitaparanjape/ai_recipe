@@ -1,6 +1,6 @@
 from openai import OpenAI
 client = OpenAI(
-    api_key = "sk-1rdSiULSPo3eCLa3F54BNJB0JSUvEqUg4IKDQP7xWtT3BlbkFJKzYdeDrwEBLjWnMVu30yoxdcRSyUFtDWgkAc97CIoA"
+    # api_key = "Enter your API key"
 )
 type = int(input("Would you like to find out what you can make with available ingredients (click 1) or find a recipe for a delious dish (click 2)? "))
 if type == 1:
